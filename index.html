@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="narda-rule-about">
+        <div class="text-rule-narda">
+            <div class="rule-classic">
+                <p>Правила Игры</p>
+            </div>
+            <p>• Всего 1 партия игры </p>
+            <p>• Если игра закрыта - побеждает игрок у кого меньше очков. </p>
+            <p>• Победа - Игрок закончивающий первым игру.</p>
+            <button onclick="closerule()">Понятно</button>
+
+        </div>
+    </div>
+
+    <div class="narda-big">
+        <div class="narda-big-inside">
+            <div class="first-narda-div">
+            <div class="narda-logo">
+                <img src="./img/loto-room-card-logo.png" alt="">    
+            <p>Классическая <span>(2 игрока)</span></p>
+            </div>
+            <div class="narda-about" onclick="openrule()">
+                <i class='bx bx-question-mark'></i>
+            </div>
+        </div>
+        <div class="second-narda-div">
+            <div class="second-narda-div-inside">
+                <div class="narda-stol-big">
+                   <div class="narda-stol-outside">
+                    <div class="narda-stol">
+                        <img src="./img/unnamed.jpg" alt="">
+                    </div>
+                    <p>00:00</p>
+                   </div>
+                   <div class="narda-stol-outside">
+                    <div class="narda-stol">
+                        <img src="./img/unnamed.jpg" alt="">
+                    </div>
+                    <p>00:00</p>
+                   </div>
+                   <div class="narda-stol-outside">
+                    <div class="narda-stol">
+                        <img src="./img/unnamed.jpg" alt="">
+                    </div>
+                    <p>00:00</p>
+                   </div>
+                </div>
+                <div class="line-narda-big">
+                    <div class="line-narda"></div>
+                <div class="line-narda2"></div>
+                </div>
+                
+            </div>
+                <div class="price-narda">
+                   <div class="text-narda-info">
+                    <p class="price-room-narda">Цена комнаты:</p>
+                    <p class="price-off"><span>0.50₼</span></p>
+                    <p class="one-game-narda">Одна игра</p>
+                    <p class="time-game-narda">Длительность игры: 5 минут</p>
+                   </div>
+                </div>
+            
+        </div>
+        </div>
+        
+    </div>
+
+    <script>
+        function openrule() {
+            document.querySelector(".narda-rule-about").style="display:flex"
+        }
+        function closerule() {
+            document.querySelector(".narda-rule-about").style="display:none"
+        }
+    </script>
+</body>
+</html>

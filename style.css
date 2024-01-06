@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.narda-big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.narda-big-inside{
+    width: 550px;
+    height: 230px;
+    background:linear-gradient(180deg, #572451 0%, rgba(71, 100, 204, 0.64) 100%);
+    border-radius: 35px;
+    border: 5px solid #d6c062;
+    padding: 25px 15px ;
+}
+
+.first-narda-div img{
+    width: 130px;
+}
+.first-narda-div{
+    color: #cc9b13;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-narda-div p{
+    font-size: 20px;
+}
+
+.first-narda-div span{
+    font-size: 11px;
+}
+
+.narda-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.narda-about{
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(224, 38, 38);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.second-narda-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-narda-div{
+    margin-top: 15px;
+}
+
+.narda-stol-big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.narda-stol{
+    width: 70px;
+    background-color: #d6c062;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 2px;
+    padding: 5px 5px;
+}
+
+.narda-stol img{
+    width: 100%;
+}
+
+.narda-stol-outside p{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.line-narda{
+    width: 30%;
+    height: 3px;
+    background: #d6c062;
+}
+.line-narda2{
+    width: 70%;
+    height: 3px;
+    background: #696969;
+}
+.line-narda-big{
+    display: flex;
+    margin-top: 20px;
+}
+
+.second-narda-div-inside{
+    display: block;
+}
+
+.price-narda{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.price-off{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background:  linear-gradient(180deg, #78010b 0%, #d32433 100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.text-narda-info{
+    text-align: center;
+}
+
+.one-game-narda{
+    font-size: 11px;
+}
+.time-game-narda{
+    font-size: 11px;
+}
+.price-room-narda{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width:550px) {
+    .second-narda-div{
+        display: block;
+}
+.narda-big-inside{
+    width: 550px;
+    height: auto;
+    background:linear-gradient(180deg, #572451 0%, rgba(71, 100, 204, 0.64) 100%);
+    border-radius: 35px;
+    border: 5px solid #d6c062;
+    padding: 25px 15px ;
+}
+.price-room-narda{
+    margin-top: 20px ;
+}
+}
+
+@media (max-width:450px) {
+    .narda-logo p{
+    display: none;
+}
+
+}
+
+
+
+.narda-rule-about{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;  
+    background: #000000d0;
+}
+
+.text-rule-narda{
+    background: linear-gradient( 180deg, #572451 0%, rgba(71, 100, 204, 0.64) 100% );
+    color: white;
+    width: 320px;
+    height: auto;
+    padding: 0 30px 30px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;  
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.text-rule-narda p{
+    line-height: 30px;
+}
+
+
+.rule-classic{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #d6c062;
+    border-radius: 10px;
+    background:linear-gradient(180deg, #951a46 0%, #196290 100%) ;
+    margin: auto;
+    margin-top: -10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text-rule-narda button{
+    background:  linear-gradient(180deg, #a27114 0%, #f0e274 100%);
+    padding: 8px 20px ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
