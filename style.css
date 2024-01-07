@@ -2,9 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+.wait-room-narda{
+    width: 100%;
+    background: url(./img/bg.png);
+    background-attachment: fixed;
+    height: auto;
+    min-height: 100vh;
+    padding: 10px 10px ;
+}
 .big-narda-stoll{
     width: 100%;
-    background-color: #42193d;
+    background: url(./img/bg.png);
+    background-attachment: fixed;
+    padding: 0px 0px 20px 0px ;
 }
 
 .narda-big{
@@ -314,12 +325,12 @@
     margin-top: 20px;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     gap: 20px;
 }
 .time-person-narda{
     width: 200px;
-    position: relative;
-    margin-top: -10px;  
+    position: relative;  
 }
 .time-narda{
     margin: auto;
@@ -359,6 +370,7 @@
     margin-top: 5px;
     font-family: 'Ubuntu', sans-serif;  
 }
+
 .country-lvl-person p{
     font-size: 12px;
 }
@@ -395,16 +407,521 @@
 
 
 .narda-stol-to-play{
-    width: 440px;
-    height: 600px;
-    background-color: #f0e274;
+    width: 600px;
+    height: 470px;
+    margin: auto;
+    background: url(./img/narda.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    position: relative;
 }
+
+.prosto-div-narda{
+    width: 600px;
+    margin: auto;
+}
+
+.narda-circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.narda-circle-first1{
+    bottom: 12px;
+    right: 15px;
+
+}
+.narda-circle-second1{
+    bottom: 12px;
+    right: 60px;
+}
+
+.narda-circle-thrist1{
+    bottom: 12px;
+    right: 105px;
+}
+.narda-circle-fourth1{
+    bottom: 12px;
+    right: 155px;
+}
+.narda-circle-fiveth1{
+    bottom: 12px;
+    right: 198px;
+}
+.narda-circle-sixth1{
+    bottom: 12px;
+    right: 243px;
+}
+
+
+.narda-circle-first{
+    bottom: 12px;
+    left: 15px;
+}
+.narda-circle-second{
+    bottom: 12px;
+    left: 60px;
+}
+
+.narda-circle-thrist{
+    bottom: 12px;
+    left: 105px;
+}
+.narda-circle-fourth{
+    bottom: 12px;
+    left: 150px;
+}
+.narda-circle-fiveth{
+    bottom: 12px;
+    left: 195px;
+}
+.narda-circle-sixth{
+    bottom: 12px;
+    left: 240px;
+}
+
+
+
+.narda-circle-first2{
+    top: 13px;
+    right: 15px;
+}
+.narda-circle-second2{
+    top: 13px;
+    right: 60px;
+}
+
+.narda-circle-thrist2{
+    top: 13px;
+    right: 105px;
+}
+.narda-circle-fourth2{
+    top: 13px;
+    right: 153px;
+}
+.narda-circle-fiveth2{
+    top: 13px;
+    right: 198px;
+}
+.narda-circle-sixth2{
+    top: 13px;
+    right: 245px;
+}
+
+
+.narda-circle-first3{
+    top: 13px;
+    left: 14px;
+}
+.narda-circle-second3{
+    top: 13px;
+    left: 60px;
+}
+
+.narda-circle-thrist3{
+    top: 13px;
+    left: 105px;
+}
+.narda-circle-fourth3{
+    top: 13px;
+    left: 150px;
+}
+.narda-circle-fiveth3{
+    top: 13px;
+    left: 195px;
+}
+.narda-circle-sixth3{
+    top: 13px;
+    left: 240px;
+}
+
+ @media (max-width:550px) {
+    .prosto-div-narda{
+        width: 400px !important;
+    }
+    .narda-stol-to-play{
+        width: 100% !important;
+        height: 313px !important;
+        background: url(./img/narda.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        position: relative;
+    }
+
+    .how-much-think-off{
+        width: 150px;
+        height: 40px;
+        background-color: #d6c062;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .something-narda{
+        width: 20px;
+        height: 20px;
+        background-color: #951a46;
+        border-radius: 5px;
+    }
+    .thinds-narda{
+        width: 100px;
+        height: 20px;
+        background-color: #951a46;
+        border-radius: 5px;
+    }
+
+    .img-person-narda{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 3px solid #d6c062;
+        overflow: hidden;
+    }
+    .img-person-narda img{
+        width: 100%;
+        height: 100%;
+    }
+    .name-person-narda{
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .person-narda{
+        display: flex;
+        gap: 10px;
+        background-color: #572451;
+        color: white;
+        padding: 10px 15px;
+        height: 40px;
+        width: 150px;
+        border: none;
+        border-radius: 10px;
+    }
+    .person-who-play-narda, .person-who-play-narda2{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+    }
+    .time-person-narda{
+        width: 180px;
+        position: relative;
+        margin-top: -10px;  
+    }
+    .how-much-think-off2{
+        width: 150px !important;
+        height: 40px;
+        background-color: #d6c062;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-top: -20px;
+    }
+    
+    .prosto-div-narda{
+        width: 98%;
+        margin: auto;
+    }
+
+    .narda-circle{
+        position: absolute;
+        width: 28px !important;
+        height: 28px !important;
+        background-color: #000;
+        border-radius: 50%;
+    }
+
+    .narda-circle-first1{
+        bottom: 0;
+        right: 10px !important;
+    }
+    .narda-circle-second1{
+        bottom: 0;
+        right: 40px !important;
+    }
+    
+    .narda-circle-thrist1{
+        bottom: 0;
+        right: 70px !important; 
+    }
+    .narda-circle-fourth1{
+        bottom: 0;
+        right: 101px !important;
+    }
+    .narda-circle-fiveth1{
+        bottom: 0;
+        right: 133px !important;
+    }
+    .narda-circle-sixth1{
+        bottom: 0;
+        right: 162px !important;
+    }
+    
+    
+    .narda-circle-first{
+        bottom: 0;
+        left: 7px !important;
+    }
+    .narda-circle-second{
+        bottom: 0;
+        left: 38px !important;
+    }
+    
+    .narda-circle-thrist{
+        bottom: 0;
+        left: 68px !important;
+    }
+    .narda-circle-fourth{
+        bottom: 0;
+        left: 98px !important;
+    }
+    .narda-circle-fiveth{
+        bottom: 0;
+        left: 129px !important;
+    }
+    .narda-circle-sixth{
+        bottom: 0;
+        left: 160px !important;
+    }
+    
+    
+    
+    .narda-circle-first2{
+        top: 0;
+        right: 10px !important;
+    }
+    .narda-circle-second2{
+        top: 0;
+        right: 40px !important;
+    }
+    
+    .narda-circle-thrist2{
+        top: 0;
+        right: 71px !important;
+    }
+    .narda-circle-fourth2{
+        top: 0;
+        right: 101px !important;
+    }
+    .narda-circle-fiveth2{
+        top: 0;
+        right: 132px !important;
+    }
+    .narda-circle-sixth2{
+        top: 0;
+        right: 162px !important;
+    }
+    
+    
+    .narda-circle-first3{
+        top: 0;
+    }
+    .narda-circle-second3{
+        top: 0;
+        left: 39px !important;
+    }
+    
+    .narda-circle-thrist3{
+        top: 0;
+        left: 69px !important;
+    }
+    .narda-circle-fourth3{
+        top: 0;
+        left: 99px !important;
+    }
+    .narda-circle-fiveth3{
+        top: 0;
+        left: 129px !important;
+    }
+    .narda-circle-sixth3{
+        top: 0;
+        left: 160px !important;
+    }
+
+    .narda-stol-mute{
+        width: 30px;
+        height: 30px;
+        background-color: #7e7e7e;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .narda-stol-lose{
+        width: 30px;
+        height: 30px;
+        background-color: #6d6d6d;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .narda-stol-luck{
+        width: 30px;
+        height: 30px;
+        background-color: #575757;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+} 
+
+@media (max-width:650px) {
+    .narda-stol-to-play{
+        width: 500px;
+        height: 390px;
+        margin: auto;
+        background: url(./img/narda.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        position: relative;
+    }
+    
+    .prosto-div-narda{
+        width: 500px;
+        margin: auto;
+    }
+    
+    .narda-circle{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background-color: #000;
+        border-radius: 50%;
+    }
+    
+    .narda-circle-first1{
+        bottom: 10px;
+        right: 13px;
+    
+    }
+    .narda-circle-second1{
+        bottom: 10px;
+        right: 50px;
+    }
+    
+    .narda-circle-thrist1{
+        bottom: 10px;
+        right: 88px;
+    }
+    .narda-circle-fourth1{
+        bottom: 10px;
+        right: 127px;
+    }
+    .narda-circle-fiveth1{
+        bottom: 10px;
+        right: 165px;
+    }
+    .narda-circle-sixth1{
+        bottom: 10px;
+        right: 203px;
+    }
+    
+    
+    .narda-circle-first{
+        bottom: 8px;
+        left: 10px;
+    }
+    .narda-circle-second{
+        bottom: 8px;
+        left: 48px;
+    }
+    
+    .narda-circle-thrist{
+        bottom: 8px;
+        left: 85px;
+    }
+    .narda-circle-fourth{
+        bottom: 8px;
+        left: 123px;
+    }
+    .narda-circle-fiveth{
+        bottom: 8px;
+        left: 162px;
+    }
+    .narda-circle-sixth{
+        bottom: 8px;
+        left: 200px;
+    }
+    
+    
+    
+    .narda-circle-first2{
+        top: 13px;
+        right: 12px;
+    }
+    .narda-circle-second2{
+        top: 13px;
+        right: 50px;
+    }
+    
+    .narda-circle-thrist2{
+        top: 13px;
+        right: 88px;
+    }
+    .narda-circle-fourth2{
+        top: 13px;
+        right: 126px;
+    }
+    .narda-circle-fiveth2{
+        top: 13px;
+        right: 165px;
+    }
+    .narda-circle-sixth2{
+        top: 13px;
+        right: 203px;
+    }
+    
+    
+    .narda-circle-first3{
+        top: 13px;
+        left: 10px;
+    }
+    .narda-circle-second3{
+        top: 13px;
+        left: 48px;
+    }
+    
+    .narda-circle-thrist3{
+        top: 13px;
+        left: 85px;
+    }
+    .narda-circle-fourth3{
+        top: 13px;
+        left: 124px;
+    }
+    .narda-circle-fiveth3{
+        top: 13px;
+        left: 162px;
+    }
+    .narda-circle-sixth3{
+        top: 13px;
+        left: 200px;
+    }
+}
+
+
+
+
+
+
 
 .person-who-play-narda2{
     margin-top: 20px;
     display: flex;
     align-items: start;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .how-much-think-off2{
