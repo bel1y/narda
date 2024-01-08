@@ -71,6 +71,41 @@
 }
 
 
+.veiw-narda-game{
+    width: 60px;
+    margin: auto;
+    height: 20px;
+    background-color: #78010b;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.veiw-narda-game i {
+    font-size: 15px;
+    color: white;
+}
+
+
+.noplay-veiw-narda-game{
+    width: 60px;
+    margin: auto;
+    height: 20px;
+    background-color: #696969;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.noplay-veiw-narda-game i {
+    font-size: 15px;
+    color: white;
+}
+
 .second-narda-div{
     display: flex;
     align-items: center;
@@ -425,9 +460,12 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background-color: #000;
+    background-color: none;
+
     border-radius: 50%;
 }
+
+
 
 .narda-circle-first1{
     bottom: 12px;
@@ -538,6 +576,151 @@
     left: 240px;
 }
 
+.narda-shashka{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("./img/fishki-black.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.narda-shashka-first{
+    top: 15px;
+    right: 15px;
+}
+.narda-shashka-second{
+    top: 25px;
+    right: 15px;
+}
+.narda-shashka-thirth{
+    top: 35px;
+    right: 15px;
+}
+.narda-shashka-fourth{
+    top: 45px;
+    right: 15px; 
+}
+.narda-shashka-fivth{
+    top: 55px;
+    right: 15px;    
+}
+.narda-shashka-sixth{
+    top: 65px;
+    right: 15px;    
+}
+.narda-shashka-seventh{
+    top: 75px;
+    right: 15px;    
+}
+.narda-shashka-eighth{
+    top: 85px;
+    right: 15px;    
+}
+.narda-shashka-ninth{
+    top: 95px;
+    right: 15px;    
+}
+.narda-shashka-tenth{
+    top: 105px;
+    right: 15px;    
+}
+.narda-shashka-eleventh{
+    top: 115px;
+    right: 15px;    
+}
+.narda-shashka-twelfth{
+    top: 125px;
+    right: 15px;    
+}
+.narda-shashka-thirteenth{
+    top: 135px;
+    right: 15px;    
+}
+.narda-shashka-fourteenth{
+    top: 145px;
+    right: 15px;    
+}
+.narda-shashka-fifteenth{
+    top: 155px;
+    right: 15px;    
+}
+
+
+.narda-shashka1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("./img/fishki-white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #f0e274 ;
+    border-radius: 50%;
+}
+
+.narda-shashka-first1{
+    bottom: 12px;
+    left: 15px;
+}
+.narda-shashka-second1{
+    bottom: 22px;
+    left: 15px;
+}
+.narda-shashka-thirth1{
+    bottom: 32px;
+    left: 15px;
+}
+.narda-shashka-fourth1{
+    bottom: 42px;
+    left: 15px; 
+}
+.narda-shashka-fivth1{
+    bottom: 52px;
+    left: 15px;    
+}
+.narda-shashka-sixth1{
+    bottom: 62px;
+    left: 15px;    
+}
+.narda-shashka-seventh1{
+    bottom: 72px;
+    left: 15px;    
+}
+.narda-shashka-eighth1{
+    bottom: 82px;
+    left: 15px;    
+}
+.narda-shashka-ninth1{
+    bottom: 92px;
+    left: 15px;    
+}
+.narda-shashka-tenth1{
+    bottom: 102px;
+    left: 15px;    
+}
+.narda-shashka-eleventh1{
+    bottom: 112px;
+    left: 15px;    
+}
+.narda-shashka-twelfth1{
+    bottom: 122px;
+    left: 15px;    
+}
+.narda-shashka-thirteenth1{
+    bottom: 132px;
+    left: 15px;    
+}
+.narda-shashka-fourteenth1{
+    bottom: 142px;
+    left: 15px;    
+}
+.narda-shashka-fifteenth1{
+    bottom: 152px;
+    left: 15px;    
+}
+
  @media (max-width:550px) {
     .prosto-div-narda{
         width: 400px !important;
@@ -634,7 +817,7 @@
         position: absolute;
         width: 28px !important;
         height: 28px !important;
-        background-color: #000;
+        background-color: none;
         border-radius: 50%;
     }
 
@@ -775,6 +958,152 @@
         justify-content: center;
         font-size: 18px;
     }
+
+    
+    .narda-shashka{
+        position: absolute;
+        width: 28px !important;
+        height: 28px !important;
+        background: url("./img/fishki-black.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+    
+    .narda-shashka-first{
+        top: 12px;
+        right: 12px;
+    }
+    .narda-shashka-second{
+        top: 22px;
+        right: 12px;
+    }
+    .narda-shashka-thirth{
+        top: 32px;
+        right: 12px;
+    }
+    .narda-shashka-fourth{
+        top: 42px;
+        right: 12px; 
+    }
+    .narda-shashka-fivth{
+        top: 52px;
+        right: 12px;    
+    }
+    .narda-shashka-sixth{
+        top: 62px;
+        right: 12px;    
+    }
+    .narda-shashka-seventh{
+        top: 72px;
+        right: 12px;    
+    }
+    .narda-shashka-eighth{
+        top: 82px;
+        right: 12px;    
+    }
+    .narda-shashka-ninth{
+        top: 92px;
+        right: 12px;    
+    }
+    .narda-shashka-tenth{
+        top: 102px;
+        right: 12px;    
+    }
+    .narda-shashka-eleventh{
+        top: 112px;
+        right: 12px;    
+    }
+    .narda-shashka-twelfth{
+        top: 122px;
+        right: 12px;    
+    }
+    .narda-shashka-thirteenth{
+        top: 132px;
+        right: 12px;    
+    }
+    .narda-shashka-fourteenth{
+        top: 142px;
+        right: 12px;    
+    }
+    .narda-shashka-fifteenth{
+        top: 152px;
+        right: 12px;    
+    }
+    
+    
+    .narda-shashka1{
+        position: absolute;
+        width: 28px !important;
+        height: 28px !important;   
+         background: url("./img/fishki-white.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #f0e274 ;
+        border-radius: 50%;
+    }
+    
+    .narda-shashka-first1{
+        bottom: 8px;
+        left: 10px;
+    }
+    .narda-shashka-second1{
+        bottom: 18px;
+          left: 10px;
+    }
+    .narda-shashka-thirth1{
+        bottom: 28px;
+          left: 10px;
+    }
+    .narda-shashka-fourth1{
+        bottom: 38px;
+          left: 10px; 
+    }
+    .narda-shashka-fivth1{
+        bottom: 48px;
+          left: 10px;    
+    }
+    .narda-shashka-sixth1{
+        bottom: 58px;
+          left: 10px;    
+    }
+    .narda-shashka-seventh1{
+        bottom: 68px;
+          left: 10px;    
+    }
+    .narda-shashka-eighth1{
+        bottom: 78px;
+          left: 10px;    
+    }
+    .narda-shashka-ninth1{
+        bottom: 88px;
+          left: 10px;    
+    }
+    .narda-shashka-tenth1{
+        bottom: 98px;
+          left: 10px;    
+    }
+    .narda-shashka-eleventh1{
+        bottom: 108px;
+          left: 10px;    
+    }
+    .narda-shashka-twelfth1{
+        bottom: 118px;
+          left: 10px;    
+    }
+    .narda-shashka-thirteenth1{
+        bottom: 128px;
+          left: 10px;    
+    }
+    .narda-shashka-fourteenth1{
+        bottom: 138px;
+          left: 10px;    
+    }
+    .narda-shashka-fifteenth1{
+        bottom: 148px;
+          left: 10px;    
+    }
 } 
 
 @media (max-width:650px) {
@@ -797,7 +1126,7 @@
         position: absolute;
         width: 35px;
         height: 35px;
-        background-color: #000;
+        background-color: none;
         border-radius: 50%;
     }
     
@@ -909,13 +1238,445 @@
         top: 13px;
         left: 200px;
     }
+
+
+    .narda-shashka{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background: url("./img/fishki-black.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+    
+    .narda-shashka-first{
+        top: 12px;
+        right: 12px;
+    }
+    .narda-shashka-second{
+        top: 22px;
+        right: 12px;
+    }
+    .narda-shashka-thirth{
+        top: 32px;
+        right: 12px;
+    }
+    .narda-shashka-fourth{
+        top: 42px;
+        right: 12px; 
+    }
+    .narda-shashka-fivth{
+        top: 52px;
+        right: 12px;    
+    }
+    .narda-shashka-sixth{
+        top: 62px;
+        right: 12px;    
+    }
+    .narda-shashka-seventh{
+        top: 72px;
+        right: 12px;    
+    }
+    .narda-shashka-eighth{
+        top: 82px;
+        right: 12px;    
+    }
+    .narda-shashka-ninth{
+        top: 92px;
+        right: 12px;    
+    }
+    .narda-shashka-tenth{
+        top: 102px;
+        right: 12px;    
+    }
+    .narda-shashka-eleventh{
+        top: 112px;
+        right: 12px;    
+    }
+    .narda-shashka-twelfth{
+        top: 122px;
+        right: 12px;    
+    }
+    .narda-shashka-thirteenth{
+        top: 132px;
+        right: 12px;    
+    }
+    .narda-shashka-fourteenth{
+        top: 142px;
+        right: 12px;    
+    }
+    .narda-shashka-fifteenth{
+        top: 152px;
+        right: 12px;    
+    }
+    
+    
+    .narda-shashka1{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background: url("./img/fishki-white.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #f0e274 ;
+        border-radius: 50%;
+    }
+    
+    .narda-shashka-first1{
+        bottom: 8px;
+        left: 10px;
+    }
+    .narda-shashka-second1{
+        bottom: 18px;
+          left: 10px;
+    }
+    .narda-shashka-thirth1{
+        bottom: 28px;
+          left: 10px;
+    }
+    .narda-shashka-fourth1{
+        bottom: 38px;
+          left: 10px; 
+    }
+    .narda-shashka-fivth1{
+        bottom: 48px;
+          left: 10px;    
+    }
+    .narda-shashka-sixth1{
+        bottom: 58px;
+          left: 10px;    
+    }
+    .narda-shashka-seventh1{
+        bottom: 68px;
+          left: 10px;    
+    }
+    .narda-shashka-eighth1{
+        bottom: 78px;
+          left: 10px;    
+    }
+    .narda-shashka-ninth1{
+        bottom: 88px;
+          left: 10px;    
+    }
+    .narda-shashka-tenth1{
+        bottom: 98px;
+          left: 10px;    
+    }
+    .narda-shashka-eleventh1{
+        bottom: 108px;
+          left: 10px;    
+    }
+    .narda-shashka-twelfth1{
+        bottom: 118px;
+          left: 10px;    
+    }
+    .narda-shashka-thirteenth1{
+        bottom: 128px;
+          left: 10px;    
+    }
+    .narda-shashka-fourteenth1{
+        bottom: 138px;
+          left: 10px;    
+    }
+    .narda-shashka-fifteenth1{
+        bottom: 148px;
+          left: 10px;    
+    }
 }
 
 
+@media (max-width:400px) {
+    .narda-stol-to-play{
+        width: 100% !important;
+        height: 313px !important;
+        background: none;
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        position: relative;
+    }
+    .narda-stol-to-play img{
+        width: 350px;
+        height: 350px;
+        display: block !important;
+    }
+    .prosto-div-narda{
+        width: 350px !important;
+        margin: auto;
+    }
+    .narda-stol-to-play{
+        height: 350px !important;
+    }
+
+    .narda-circle{
+        position: absolute;
+        width: 25px !important;
+        height: 25px !important;
+        background-color: none;
+        border-radius: 50%;
+    }
+    
+    .narda-circle-first1{
+        bottom: 10px;
+        right: 9px !important;
+    
+    }
+    .narda-circle-second1{
+        bottom: 10px;
+        right: 35.5px !important;
+    }
+    
+    .narda-circle-thrist1{
+        bottom: 10px;
+        right: 61px !important;
+    }
+    .narda-circle-fourth1{
+        bottom: 10px;
+        right: 88px !important;
+    }
+    .narda-circle-fiveth1{
+        bottom: 10px;
+        right: 115px !important;
+    }
+    .narda-circle-sixth1{
+        bottom: 10px;
+        right: 141px !important;
+    }
+    
+    
+    .narda-circle-first{
+        bottom: 8px;
+        left: 10px;
+    }
+    .narda-circle-second{
+        bottom: 8px;
+        left: 33px !important;
+    }
+    
+    .narda-circle-thrist{
+        bottom: 8px;
+        left: 60px !important;
+    }
+    .narda-circle-fourth{
+        bottom: 8px;
+        left: 86px !important;
+    }
+    .narda-circle-fiveth{
+        bottom: 8px;
+        left: 113px !important;
+    }
+    .narda-circle-sixth{
+        bottom: 8px;
+        left: 140px !important;
+    }
+    
+    
+    
+    .narda-circle-first2{
+        top: 13px;
+        right: 8px !important;
+    }
+    .narda-circle-second2{
+        top: 13px;
+        right: 35px !important;
+    }
+    
+    .narda-circle-thrist2{
+        top: 13px;
+        right: 61px !important;
+    }
+    .narda-circle-fourth2{
+        top: 13px;
+        right: 88px !important;
+    }
+    .narda-circle-fiveth2{
+        top: 13px;
+        right: 115px !important;
+    }
+    .narda-circle-sixth2{
+        top: 13px;
+        right: 142px !important;
+    }
+    
+    
+    .narda-circle-first3{
+        top: 13px;
+        left: 7px !important;
+    }
+    .narda-circle-second3{
+        top: 13px;
+        left: 33px !important;
+    }
+    
+    .narda-circle-thrist3{
+        top: 13px;
+        left: 60px !important;
+    }
+    .narda-circle-fourth3{
+        top: 13px;
+        left: 86px !important;
+    }
+    .narda-circle-fiveth3{
+        top: 13px;
+        left: 113px !important;
+    }
+    .narda-circle-sixth3{
+        top: 13px;
+        left: 140px !important;
+    }
 
 
+    .narda-shashka{
+        position: absolute;
+        width: 25px !important;
+        height: 25px !important;
+        background: url("./img/fishki-black.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+    
+    .narda-shashka-first{
+        top: 12px;
+        right: 9px;
+    }
+    .narda-shashka-second{
+        top: 22px;
+        right: 9px;
+    }
+    .narda-shashka-thirth{
+        top: 32px;
+        right: 9px;
+    }
+    .narda-shashka-fourth{
+        top: 42px;
+        right: 9px; 
+    }
+    .narda-shashka-fivth{
+        top: 52px;
+        right: 9px;    
+    }
+    .narda-shashka-sixth{
+        top: 62px;
+        right: 9px;    
+    }
+    .narda-shashka-seventh{
+        top: 72px;
+        right: 9px;    
+    }
+    .narda-shashka-eighth{
+        top: 82px;
+        right: 9px;    
+    }
+    .narda-shashka-ninth{
+        top: 92px;
+        right: 9px;    
+    }
+    .narda-shashka-tenth{
+        top: 102px;
+        right: 9px;    
+    }
+    .narda-shashka-eleventh{
+        top: 112px;
+        right: 9px;    
+    }
+    .narda-shashka-twelfth{
+        top: 122px;
+        right: 9px;    
+    }
+    .narda-shashka-thirteenth{
+        top: 132px;
+        right: 9px;    
+    }
+    .narda-shashka-fourteenth{
+        top: 142px;
+        right: 9px;    
+    }
+    .narda-shashka-fifteenth{
+        top: 152px;
+        right: 9px;    
+    }
+    
+    
+    .narda-shashka1{
+        position: absolute;
+        width: 25px !important;
+        height: 25px !important;
+        background: url("./img/fishki-white.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #f0e274 ;
+        border-radius: 50%;
+    }
+    
+    .narda-shashka-first1{
+        bottom: 8px;
+        left: 7px;
+    }
+    .narda-shashka-second1{
+        bottom: 18px;
+        left: 7px;
+    }
+    .narda-shashka-thirth1{
+        bottom: 28px;
+        left: 7px;
+    }
+    .narda-shashka-fourth1{
+        bottom: 38px;
+        left: 7px; 
+    }
+    .narda-shashka-fivth1{
+        bottom: 48px;
+        left: 7px;    
+    }
+    .narda-shashka-sixth1{
+        bottom: 58px;
+        left: 7px;    
+    }
+    .narda-shashka-seventh1{
+        bottom: 68px;
+        left: 7px;    
+    }
+    .narda-shashka-eighth1{
+        bottom: 78px;
+        left: 7px;    
+    }
+    .narda-shashka-ninth1{
+        bottom: 88px;
+        left: 7px;    
+    }
+    .narda-shashka-tenth1{
+        bottom: 98px;
+        left: 7px;    
+    }
+    .narda-shashka-eleventh1{
+        bottom: 108px;
+        left: 7px;    
+    }
+    .narda-shashka-twelfth1{
+        bottom: 118px;
+        left: 7px;    
+    }
+    .narda-shashka-thirteenth1{
+        bottom: 128px;
+        left: 7px;    
+    }
+    .narda-shashka-fourteenth1{
+        bottom: 138px;
+        left: 7px;    
+    }
+    .narda-shashka-fifteenth1{
+        bottom: 148px;
+        left: 7px;    
+    }
+}
 
 
+.narda-stol-to-play img{
+    display: none;
+}
 
 .person-who-play-narda2{
     margin-top: 20px;
