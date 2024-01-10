@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px ;
+    padding: 0px;
 }
 
 .wait-room-narda{
@@ -254,6 +254,9 @@
     width: 100%;
     height: 100vh;  
     background: #000000d0;
+    top: 0; 
+    left: 0;
+    backdrop-filter: blur(10px);
 }
 
 .text-rule-narda{
@@ -314,7 +317,7 @@
 .narda-stol-mute{
     width: 50px;
     height: 50px;
-    background-color: #7e7e7e;
+    background-color: #75386f;
     color: rgb(236, 229, 189);
     display: flex;
     align-items: center;
@@ -324,7 +327,7 @@
 .narda-stol-lose{
     width: 50px;
     height: 50px;
-    background-color: #6d6d6d;
+    background-color: #612a5a;
     color: rgb(236, 229, 189);
     display: flex;
     align-items: center;
@@ -334,7 +337,7 @@
 .narda-stol-luck{
     width: 50px;
     height: 50px;
-    background-color: #575757;
+    background-color: #572451;
     color: rgb(236, 229, 189);
     display: flex;
     align-items: center;
@@ -393,7 +396,7 @@
     align-items: center;
     justify-content: center;
     background-color: #a1a1a1;
-    background: linear-gradient(90deg, #a1a1a1 0%, #7c7c7c 100%);
+    background: linear-gradient(180deg, #951a46 0%, #196290 100%);
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
@@ -437,7 +440,7 @@
 .how-much-think-off{
     width: 220px;
     height: 40px;
-    background-color: #d6c062;
+    background: linear-gradient(90deg, #968c42 0%, #b89a49 100%);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: flex;
@@ -605,6 +608,7 @@
     justify-content: center;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .narda-shashka-first{
@@ -681,7 +685,9 @@
     justify-content: center;
     color: #000;
     font-size: 18px;
+    cursor: pointer;
 }
+
 
 .narda-shashka-first1{
     bottom: 12px;
@@ -760,7 +766,7 @@
     .how-much-think-off{
         width: 150px;
         height: 40px;
-        background-color: #d6c062;
+        background: linear-gradient(90deg, #968c42 0%, #b89a49 100%);
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
         display: flex;
@@ -821,7 +827,7 @@
     .how-much-think-off2{
         width: 150px !important;
         height: 40px;
-        background-color: #d6c062;
+        background: linear-gradient(90deg, #968c42 0%, #b89a49 100%);
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
         display: flex;
@@ -954,7 +960,7 @@
     .narda-stol-mute{
         width: 30px;
         height: 30px;
-        background-color: #7e7e7e;
+    background-color: #75386f;
         color: rgb(236, 229, 189);
         display: flex;
         align-items: center;
@@ -964,7 +970,7 @@
     .narda-stol-lose{
         width: 30px;
         height: 30px;
-        background-color: #6d6d6d;
+        background-color: #612a5a;
         color: rgb(236, 229, 189);
         display: flex;
         align-items: center;
@@ -974,7 +980,7 @@
     .narda-stol-luck{
         width: 30px;
         height: 30px;
-        background-color: #575757;
+        background-color: #572451;
         color: rgb(236, 229, 189);
         display: flex;
         align-items: center;
@@ -1703,7 +1709,7 @@
 .how-much-think-off2{
     width: 220px;
     height: 40px;
-    background-color: #d6c062;
+    background: linear-gradient(90deg, #b89a49 0%, #968c42 100%);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     display: flex;
@@ -1711,4 +1717,245 @@
     justify-content: center;
     gap: 15px;
     margin-top: -20px;
+}
+
+.emotion-narda{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.emotion-narda1{
+    width: 40px;
+    height: 40px;
+    background-color: #572451;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.emotion-narda2{
+    width: 40px;
+    height: 40px;
+    background-color: #572451;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.chat-narda-open{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c7;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.chat-narda{
+    background-color: #572451;
+    width: 400px;
+    height: 500px;
+    padding: 5px 2px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.narda-chat-send{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.narda-chat-send input{
+    height: 30px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-send-narda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 30px;
+    background-color: #196290;
+    border-radius: 10px;
+}
+
+.text-after-send-narda{
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.text-after-send-narda::-webkit-scrollbar-track {
+    border: 1px solid #f0e274;
+    padding: 2px 0;
+    background-color: #572451;
+    border-radius: 10px;
+  }
+  .text-after-send-narda::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .text-after-send-narda::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #951a46;
+    border: 1px solid #f0e274;
+    border-radius: 10px;
+  }
+
+.text-after-send-narda p{
+    background-color: #951a46;
+    padding: 5px 10px ;
+    border-radius: 10px;
+    margin-top: 20px; 
+    margin-left: 10px;   
+    width: 350px;
+}
+
+.close-chat-mark{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .chat-narda{
+        background-color: #572451;
+        width: 350px;
+        height: 500px;
+        padding: 5px 2px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .text-after-send-narda p{
+        background-color: #951a46;
+        padding: 5px 10px ;
+        border-radius: 10px;
+        margin-top: 20px; 
+        margin-left: 10px;   
+        width: 300px;
+    }
+}
+
+@media (max-width:430px) {
+    .chat-narda{
+        background-color: #572451;
+        width: 300px;
+        height: 400px;
+        padding: 5px 2px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .text-after-send-narda p{
+        background-color: #951a46;
+        padding: 5px 10px ;
+        border-radius: 10px;
+        margin-top: 20px; 
+        margin-left: 10px;   
+        width: 250px;
+    }
+    .text-after-send-narda{
+        height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+
+
+.emotion-narda-open{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c7;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;  
+}
+
+.emotion-narda-center{
+    background-color: #572451;
+    width: 400px;
+    height: 500px;
+    padding: 5px 2px;
+    color: #d6c062;
+    font-size: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px 50px ;
+}
+
+.emotion-div-narda{
+    width: 90px; 
+}
+
+
+@media (max-width:500px) {
+    .emotion-narda-center{
+        background-color: #572451;
+        width: 300px;
+        height: 450px;
+        padding: 5px 2px;
+        color: #d6c062;
+        font-size: 60px;
+        border-radius: 10px;
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        padding: 10px 0px ;
+    }
+    
+    .emotion-div-narda{
+        width: 70px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 430px) {
+    .emotion-narda-center{
+        background-color: #572451;
+        width: 250px;
+        height: 400px;
+        padding: 5px 2px;
+        color: #d6c062;
+        font-size: 50px;
+        border-radius: 10px;
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        padding: 10px 0px ;
+    }
+    
+    .emotion-div-narda{
+        width: 60px;
+        margin: auto;
+    }
 }
