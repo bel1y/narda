@@ -5,15 +5,22 @@
 
 .wait-room-narda{
     width: 100%;
-    background: url(./img/bg.png);
+    background: url("./img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
     height: auto;
     min-height: 100vh;
     padding: 10px 10px ;
 }
 .big-narda-stoll{
     width: 100%;
-    background: url(./img/bg.png);
+    background: url("./img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
     background-attachment: fixed;
     padding: 0px 0px 20px 0px ;
 }
@@ -464,7 +471,7 @@
 
 .narda-stol-to-play{
     width: 600px;
-    height: 470px;
+    height: 600px;
     margin: auto;
     background: url("./img/narda-stol.jpg");
     background-repeat: no-repeat;
@@ -481,119 +488,119 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background-color: none;
+    background: none;
     border-radius: 50%;
 }
 
 
 
 .narda-circle-first1{
-    bottom: 12px;
-    right: 15px;
+    bottom: 30px;
+    right: 30px;
 
 }
 .narda-circle-second1{
-    bottom: 12px;
-    right: 60px;
+    bottom: 30px;
+    right: 72px;
 }
 
 .narda-circle-thrist1{
-    bottom: 12px;
-    right: 105px;
+    bottom: 30px;
+    right: 114px;
 }
 .narda-circle-fourth1{
-    bottom: 12px;
-    right: 155px;
+    bottom: 30px;
+    right: 156px;
 }
 .narda-circle-fiveth1{
-    bottom: 12px;
-    right: 198px;
+    bottom: 30px;
+    right: 199px;
 }
 .narda-circle-sixth1{
-    bottom: 12px;
-    right: 243px;
+    bottom: 30px;
+    right: 241px;
 }
 
 
 .narda-circle-first{
-    bottom: 12px;
-    left: 15px;
+    bottom: 30px;
+    left: 30px;
 }
 .narda-circle-second{
-    bottom: 12px;
-    left: 60px;
+    bottom: 30px;
+    left: 73px;
 }
 
 .narda-circle-thrist{
-    bottom: 12px;
-    left: 105px;
+    bottom: 30px;
+    left: 117px;
 }
 .narda-circle-fourth{
-    bottom: 12px;
-    left: 150px;
+    bottom: 30px;
+    left: 158px;
 }
 .narda-circle-fiveth{
-    bottom: 12px;
-    left: 195px;
+    bottom: 30px;
+    left: 200px;
 }
 .narda-circle-sixth{
-    bottom: 12px;
-    left: 240px;
+    bottom: 30px;
+    left: 242px;
 }
 
 
 
 .narda-circle-first2{
-    top: 13px;
-    right: 15px;
+    top: 30px;
+    right: 31px;
 }
 .narda-circle-second2{
-    top: 13px;
-    right: 60px;
+    top: 30px;
+    right: 73px;
 }
 
 .narda-circle-thrist2{
-    top: 13px;
-    right: 105px;
+    top: 30px;
+    right: 115px;
 }
 .narda-circle-fourth2{
-    top: 13px;
-    right: 153px;
+    top: 30px;
+    right: 157px;
 }
 .narda-circle-fiveth2{
-    top: 13px;
-    right: 198px;
+    top: 30px;
+    right: 200px;
 }
 .narda-circle-sixth2{
-    top: 13px;
-    right: 245px;
+    top: 30px;
+    right: 242px;
 }
 
 
 .narda-circle-first3{
-    top: 13px;
-    left: 14px;
+    top: 30px;
+    left: 32px;
 }
 .narda-circle-second3{
-    top: 13px;
-    left: 60px;
+    top: 30px;
+    left: 74px;
 }
 
 .narda-circle-thrist3{
-    top: 13px;
-    left: 105px;
+    top: 30px;
+    left: 116px;
 }
 .narda-circle-fourth3{
-    top: 13px;
-    left: 150px;
+    top: 30px;
+    left: 158px;
 }
 .narda-circle-fiveth3{
-    top: 13px;
-    left: 195px;
+    top: 30px;
+    left: 200px;
 }
 .narda-circle-sixth3{
-    top: 13px;
-    left: 240px;
+    top: 30px;
+    left: 243px;
 }
 
 .narda-shashka{
@@ -612,64 +619,64 @@
 }
 
 .narda-shashka-first{
-    top: 15px;
-    right: 15px;
+    top: 30px;
+    right: 30px;
 }
 .narda-shashka-second{
-    top: 25px;
-    right: 15px;
+    top: 40px;
+    right: 30px;
 }
 .narda-shashka-thirth{
-    top: 35px;
-    right: 15px;
+    top: 50px;
+    right: 30px;
 }
 .narda-shashka-fourth{
-    top: 45px;
-    right: 15px; 
+    top: 60px;
+    right: 30px; 
 }
 .narda-shashka-fivth{
-    top: 55px;
-    right: 15px;    
+    top: 70px;
+    right: 30px;    
 }
 .narda-shashka-sixth{
-    top: 65px;
-    right: 15px;    
+    top: 80px;
+    right: 30px;    
 }
 .narda-shashka-seventh{
-    top: 75px;
-    right: 15px;    
+    top: 90px;
+    right: 30px;    
 }
 .narda-shashka-eighth{
-    top: 85px;
-    right: 15px;    
+    top: 100px;
+    right: 30px;    
 }
 .narda-shashka-ninth{
-    top: 95px;
-    right: 15px;    
+    top: 110px;
+    right: 30px;    
 }
 .narda-shashka-tenth{
-    top: 105px;
-    right: 15px;    
+    top: 120px;
+    right: 30px;    
 }
 .narda-shashka-eleventh{
-    top: 115px;
-    right: 15px;    
+    top: 130px;
+    right: 30px;    
 }
 .narda-shashka-twelfth{
-    top: 125px;
-    right: 15px;    
+    top: 140px;
+    right: 30px;    
 }
 .narda-shashka-thirteenth{
-    top: 135px;
-    right: 15px;    
+    top: 150px;
+    right: 30px;    
 }
 .narda-shashka-fourteenth{
-    top: 145px;
-    right: 15px;    
+    top: 160px;
+    right: 30px;    
 }
 .narda-shashka-fifteenth{
-    top: 155px;
-    right: 15px;    
+    top: 170px;
+    right: 30px;    
 }
 
 
@@ -690,64 +697,64 @@
 
 
 .narda-shashka-first1{
-    bottom: 12px;
-    left: 15px;
+    bottom: 30px;
+    left: 30px;
 }
 .narda-shashka-second1{
-    bottom: 22px;
-    left: 15px;
+    bottom: 40px;
+    left: 30px;
 }
 .narda-shashka-thirth1{
-    bottom: 32px;
-    left: 15px;
+    bottom: 50px;
+    left: 30px;
 }
 .narda-shashka-fourth1{
-    bottom: 42px;
-    left: 15px; 
+    bottom: 60px;
+    left: 30px; 
 }
 .narda-shashka-fivth1{
-    bottom: 52px;
-    left: 15px;    
+    bottom: 70px;
+    left: 30px;    
 }
 .narda-shashka-sixth1{
-    bottom: 62px;
-    left: 15px;    
+    bottom: 80px;
+    left: 30px;    
 }
 .narda-shashka-seventh1{
-    bottom: 72px;
-    left: 15px;    
+    bottom: 90px;
+    left: 30px;    
 }
 .narda-shashka-eighth1{
-    bottom: 82px;
-    left: 15px;    
+    bottom: 100px;
+    left: 30px;    
 }
 .narda-shashka-ninth1{
-    bottom: 92px;
-    left: 15px;    
+    bottom: 110px;
+    left: 30px;    
 }
 .narda-shashka-tenth1{
-    bottom: 102px;
-    left: 15px;    
+    bottom: 120px;
+    left: 30px;    
 }
 .narda-shashka-eleventh1{
-    bottom: 112px;
-    left: 15px;    
+    bottom: 130px;
+    left: 30px;    
 }
 .narda-shashka-twelfth1{
-    bottom: 122px;
-    left: 15px;    
+    bottom: 140px;
+    left: 30px;    
 }
 .narda-shashka-thirteenth1{
-    bottom: 132px;
-    left: 15px;    
+    bottom: 150px;
+    left: 30px;    
 }
 .narda-shashka-fourteenth1{
-    bottom: 142px;
-    left: 15px;    
+    bottom: 160px;
+    left: 30px;    
 }
 .narda-shashka-fifteenth1{
-    bottom: 152px;
-    left: 15px;    
+    bottom: 170px;
+    left: 30px;    
 }
 
  @media (max-width:550px) {
@@ -756,7 +763,7 @@
     }
     .narda-stol-to-play{
         width: 100% !important;
-        height: 313px !important;
+        height: 400px !important;
         background: url("./img/narda-stol.jpg");
         background-repeat: no-repeat;
         background-size: 100% !important;
@@ -851,109 +858,110 @@
     }
 
     .narda-circle-first1{
-        bottom: 0;
-        right: 10px !important;
+        bottom: 20px !important;
+        right: 20px !important;
     }
     .narda-circle-second1{
-        bottom: 0;
-        right: 40px !important;
+        bottom: 20px !important;
+        right: 47px !important;
     }
     
     .narda-circle-thrist1{
-        bottom: 0;
-        right: 70px !important; 
+        bottom: 20px !important;
+        right: 75px !important; 
     }
     .narda-circle-fourth1{
-        bottom: 0;
-        right: 101px !important;
+        bottom: 20px !important;
+        right: 104px !important;
     }
     .narda-circle-fiveth1{
-        bottom: 0;
-        right: 133px !important;
+        bottom: 20px !important;
+        right: 132px !important;
     }
     .narda-circle-sixth1{
-        bottom: 0;
-        right: 162px !important;
+        bottom: 20px !important;
+        right: 160px !important;
     }
     
     
     .narda-circle-first{
-        bottom: 0;
-        left: 7px !important;
+        bottom: 20px !important;
+        left: 20px !important;
     }
     .narda-circle-second{
-        bottom: 0;
-        left: 38px !important;
+        bottom: 20px !important;
+        left: 48px !important;
     }
     
     .narda-circle-thrist{
-        bottom: 0;
-        left: 68px !important;
+        bottom: 20px !important;
+        left: 76px !important;
     }
     .narda-circle-fourth{
-        bottom: 0;
-        left: 98px !important;
+        bottom: 20px !important;
+        left: 105px !important;
     }
     .narda-circle-fiveth{
-        bottom: 0;
-        left: 129px !important;
+        bottom: 20px !important;
+        left: 134px !important;
     }
     .narda-circle-sixth{
-        bottom: 0;
-        left: 160px !important;
+        bottom: 20px !important;
+        left: 162px !important;
     }
     
     
     
     .narda-circle-first2{
-        top: 0;
-        right: 10px !important;
+        top: 20px !important;
+        right: 20px !important;
     }
     .narda-circle-second2{
-        top: 0;
-        right: 40px !important;
+        top: 20px !important;
+        right: 47px !important;
     }
     
     .narda-circle-thrist2{
-        top: 0;
-        right: 71px !important;
+        top: 20px !important;
+        right: 76px !important;
     }
     .narda-circle-fourth2{
-        top: 0;
-        right: 101px !important;
+        top: 20px !important;
+        right: 104px !important;
     }
     .narda-circle-fiveth2{
-        top: 0;
+        top: 20px !important;
         right: 132px !important;
     }
     .narda-circle-sixth2{
-        top: 0;
-        right: 162px !important;
+        top: 20px !important;
+        right: 160px !important;
     }
     
     
     .narda-circle-first3{
-        top: 0;
+        top: 20px !important;
+        left: 20px !important;
     }
     .narda-circle-second3{
-        top: 0;
-        left: 39px !important;
+        top: 20px !important;
+        left: 48px !important;
     }
     
     .narda-circle-thrist3{
-        top: 0;
-        left: 69px !important;
+        top: 20px !important;
+        left: 76px !important;
     }
     .narda-circle-fourth3{
-        top: 0;
-        left: 99px !important;
+        top: 20px !important;
+        left: 105px !important;
     }
     .narda-circle-fiveth3{
-        top: 0;
-        left: 129px !important;
+        top: 20px !important;
+        left: 133px !important;
     }
     .narda-circle-sixth3{
-        top: 0;
+        top: 20px !important;
         left: 160px !important;
     }
 
@@ -999,64 +1007,64 @@
     }
     
     .narda-shashka-first{
-        top: 12px;
-        right: 12px;
+        top: 20px !important;
+        right: 20px !important;
     }
     .narda-shashka-second{
-        top: 22px;
-        right: 12px;
+        top: 30px !important;
+        right: 20px !important;
     }
     .narda-shashka-thirth{
-        top: 32px;
-        right: 12px;
+        top: 40px !important;
+        right: 20px !important;
     }
     .narda-shashka-fourth{
-        top: 42px;
-        right: 12px; 
+        top: 50px !important;
+        right: 20px !important;
     }
     .narda-shashka-fivth{
-        top: 52px;
-        right: 12px;    
+        top: 60px !important;
+        right: 20px !important;   
     }
     .narda-shashka-sixth{
-        top: 62px;
-        right: 12px;    
+        top: 70px !important;
+        right: 20px !important;   
     }
     .narda-shashka-seventh{
-        top: 72px;
-        right: 12px;    
+        top: 80px !important;
+        right: 20px !important;   
     }
     .narda-shashka-eighth{
-        top: 82px;
-        right: 12px;    
+        top: 90px !important;
+        right: 20px !important;   
     }
     .narda-shashka-ninth{
-        top: 92px;
-        right: 12px;    
+        top: 100px !important;
+        right: 20px !important;    
     }
     .narda-shashka-tenth{
-        top: 102px;
-        right: 12px;    
+        top: 110px !important;
+        right: 20px !important;    
     }
     .narda-shashka-eleventh{
-        top: 112px;
-        right: 12px;    
+        top: 120px !important;
+        right: 20px !important;  
     }
     .narda-shashka-twelfth{
-        top: 122px;
-        right: 12px;    
+        top: 130px !important;
+        right: 20px !important;   
     }
     .narda-shashka-thirteenth{
-        top: 132px;
-        right: 12px;    
+        top: 140px !important;
+        right: 20px !important;  
     }
     .narda-shashka-fourteenth{
-        top: 142px;
-        right: 12px;    
+        top: 150px !important;
+        right: 20px !important;    
     }
     .narda-shashka-fifteenth{
-        top: 152px;
-        right: 12px;    
+        top: 160px !important;
+        right: 20px !important;    
     }
     
     
@@ -1070,71 +1078,71 @@
     }
     
     .narda-shashka-first1{
-        bottom: 8px;
-        left: 10px;
+        bottom: 20px !important;
+        left: 20px !important;
     }
     .narda-shashka-second1{
-        bottom: 18px;
-          left: 10px;
+        bottom: 30px !important;
+        left: 20px !important;
     }
     .narda-shashka-thirth1{
-        bottom: 28px;
-          left: 10px;
+        bottom: 40px !important;
+        left: 20px !important;
     }
     .narda-shashka-fourth1{
-        bottom: 38px;
-          left: 10px; 
+        bottom: 50px !important;
+        left: 20px !important; 
     }
     .narda-shashka-fivth1{
-        bottom: 48px;
-          left: 10px;    
+        bottom: 60px !important;
+        left: 20px !important;  
     }
     .narda-shashka-sixth1{
-        bottom: 58px;
-          left: 10px;    
+        bottom: 70px !important;
+        left: 20px !important;   
     }
     .narda-shashka-seventh1{
-        bottom: 68px;
-          left: 10px;    
+        bottom: 80px !important;
+        left: 20px !important;   
     }
     .narda-shashka-eighth1{
-        bottom: 78px;
-          left: 10px;    
+        bottom: 90px !important;
+        left: 20px !important;   
     }
     .narda-shashka-ninth1{
-        bottom: 88px;
-          left: 10px;    
+        bottom: 100px !important;
+        left: 20px !important;   
     }
     .narda-shashka-tenth1{
-        bottom: 98px;
-          left: 10px;    
+        bottom: 110px !important;
+        left: 20px !important;    
     }
     .narda-shashka-eleventh1{
-        bottom: 108px;
-          left: 10px;    
+        bottom: 120px !important;
+        left: 20px !important;    
     }
     .narda-shashka-twelfth1{
-        bottom: 118px;
-          left: 10px;    
+        bottom: 130px !important;
+        left: 20px !important;    
     }
     .narda-shashka-thirteenth1{
-        bottom: 128px;
-          left: 10px;    
+        bottom: 140px !important;
+        left: 20px !important;    
     }
     .narda-shashka-fourteenth1{
-        bottom: 138px;
-          left: 10px;    
+        bottom: 150px !important;
+        left: 20px !important;    
     }
     .narda-shashka-fifteenth1{
-        bottom: 148px;
-          left: 10px;    
+        bottom: 160px !important;
+        left: 20px !important;    
     }
 } 
 
 @media (max-width:650px) {
     .narda-stol-to-play{
         width: 500px;
-        height: 390px;
+        height: 500px;
         margin: auto;
         background: url("./img/narda-stol.jpg");
         background-repeat: no-repeat;
@@ -1151,117 +1159,117 @@
         position: absolute;
         width: 35px;
         height: 35px;
-        background-color: none;
+        background: none;
         border-radius: 50%;
     }
     
     .narda-circle-first1{
-        bottom: 10px;
-        right: 13px;
+        bottom: 25px;
+        right: 24px;
     
     }
     .narda-circle-second1{
-        bottom: 10px;
-        right: 50px;
+        bottom: 25px;
+        right: 59px;
     }
     
     .narda-circle-thrist1{
-        bottom: 10px;
-        right: 88px;
+        bottom: 25px;
+        right: 94px;
     }
     .narda-circle-fourth1{
-        bottom: 10px;
-        right: 127px;
+        bottom: 25px;
+        right: 129px;
     }
     .narda-circle-fiveth1{
-        bottom: 10px;
+        bottom: 25px;
         right: 165px;
     }
     .narda-circle-sixth1{
-        bottom: 10px;
-        right: 203px;
+        bottom: 25px;
+        right: 200px;
     }
     
     
     .narda-circle-first{
-        bottom: 8px;
-        left: 10px;
+        bottom: 25px;
+        left: 25px;
     }
     .narda-circle-second{
-        bottom: 8px;
-        left: 48px;
+        bottom: 25px;
+        left: 62px;
     }
     
     .narda-circle-thrist{
-        bottom: 8px;
-        left: 85px;
+        bottom: 25px;
+        left: 96px;
     }
     .narda-circle-fourth{
-        bottom: 8px;
-        left: 123px;
+        bottom: 25px;
+        left: 131px;
     }
     .narda-circle-fiveth{
-        bottom: 8px;
-        left: 162px;
+        bottom: 25px;
+        left: 167px;
     }
     .narda-circle-sixth{
-        bottom: 8px;
-        left: 200px;
+        bottom: 25px;
+        left: 202px;
     }
     
     
     
     .narda-circle-first2{
-        top: 13px;
-        right: 12px;
+        top: 25px;
+        right: 25px;
     }
     .narda-circle-second2{
-        top: 13px;
-        right: 50px;
+        top: 25px;
+        right: 60px;
     }
     
     .narda-circle-thrist2{
-        top: 13px;
-        right: 88px;
+        top: 25px;
+        right: 95px;
     }
     .narda-circle-fourth2{
-        top: 13px;
-        right: 126px;
+        top: 25px;
+        right: 130px;
     }
     .narda-circle-fiveth2{
-        top: 13px;
+        top: 25px;
         right: 165px;
     }
     .narda-circle-sixth2{
-        top: 13px;
-        right: 203px;
+        top: 25px;
+        right: 200px;
     }
     
     
     .narda-circle-first3{
-        top: 13px;
-        left: 10px;
+        top: 25px;
+        left: 25px;
     }
     .narda-circle-second3{
-        top: 13px;
-        left: 48px;
+        top: 25px;
+        left: 61px;
     }
     
     .narda-circle-thrist3{
-        top: 13px;
-        left: 85px;
+        top: 25px;
+        left: 96px;
     }
     .narda-circle-fourth3{
-        top: 13px;
-        left: 124px;
+        top: 25px;
+        left: 131px;
     }
     .narda-circle-fiveth3{
-        top: 13px;
-        left: 162px;
+        top: 25px;
+        left: 166px;
     }
     .narda-circle-sixth3{
-        top: 13px;
-        left: 200px;
+        top: 25px;
+        left: 201px;
     }
 
 
@@ -1276,64 +1284,64 @@
     }
     
     .narda-shashka-first{
-        top: 12px;
-        right: 12px;
+        top: 25px;
+        right: 25px;
     }
     .narda-shashka-second{
-        top: 22px;
-        right: 12px;
+        top: 35px;
+        right: 25px;
     }
     .narda-shashka-thirth{
-        top: 32px;
-        right: 12px;
+        top: 45px;
+        right: 25px;
     }
     .narda-shashka-fourth{
-        top: 42px;
-        right: 12px; 
+        top: 55px;
+        right: 25px;
     }
     .narda-shashka-fivth{
-        top: 52px;
-        right: 12px;    
+        top: 65px;
+        right: 25px;    
     }
     .narda-shashka-sixth{
-        top: 62px;
-        right: 12px;    
+        top: 75px;
+        right: 25px;    
     }
     .narda-shashka-seventh{
-        top: 72px;
-        right: 12px;    
+        top: 85px;
+        right: 25px; 
     }
     .narda-shashka-eighth{
-        top: 82px;
-        right: 12px;    
+        top: 95px;
+        right: 25px;  
     }
     .narda-shashka-ninth{
-        top: 92px;
-        right: 12px;    
+        top: 105px;
+        right: 25px;   
     }
     .narda-shashka-tenth{
-        top: 102px;
-        right: 12px;    
+        top: 115px;
+        right: 25px;   
     }
     .narda-shashka-eleventh{
-        top: 112px;
-        right: 12px;    
+        top: 125px;
+        right: 25px;  
     }
     .narda-shashka-twelfth{
-        top: 122px;
-        right: 12px;    
+        top: 135px;
+        right: 25px; 
     }
     .narda-shashka-thirteenth{
-        top: 132px;
-        right: 12px;    
+        top: 145px;
+        right: 25px;    
     }
     .narda-shashka-fourteenth{
-        top: 142px;
-        right: 12px;    
+        top: 155px;
+        right: 25px;    
     }
     .narda-shashka-fifteenth{
-        top: 152px;
-        right: 12px;    
+        top: 165px;
+        right: 25px;    
     }
     
     
@@ -1348,88 +1356,122 @@
     }
     
     .narda-shashka-first1{
-        bottom: 8px;
-        left: 10px;
+        bottom: 25px;
+        left: 25px;
     }
     .narda-shashka-second1{
-        bottom: 18px;
-          left: 10px;
+        bottom: 35px;
+        left: 25px;
     }
     .narda-shashka-thirth1{
-        bottom: 28px;
-          left: 10px;
+        bottom: 45px;
+        left: 25px;
     }
     .narda-shashka-fourth1{
-        bottom: 38px;
-          left: 10px; 
+        bottom: 55px;
+        left: 25px;
     }
     .narda-shashka-fivth1{
-        bottom: 48px;
-          left: 10px;    
+        bottom: 65px;
+        left: 25px;   
     }
     .narda-shashka-sixth1{
-        bottom: 58px;
-          left: 10px;    
+        bottom: 75px;
+        left: 25px;   
     }
     .narda-shashka-seventh1{
-        bottom: 68px;
-          left: 10px;    
+        bottom: 85px;
+        left: 25px;   
     }
     .narda-shashka-eighth1{
-        bottom: 78px;
-          left: 10px;    
+        bottom: 95px;
+        left: 25px;   
     }
     .narda-shashka-ninth1{
-        bottom: 88px;
-          left: 10px;    
+        bottom: 105px;
+        left: 25px;   
     }
     .narda-shashka-tenth1{
-        bottom: 98px;
-          left: 10px;    
+        bottom: 115px;
+        left: 25px;   
     }
     .narda-shashka-eleventh1{
-        bottom: 108px;
-          left: 10px;    
+        bottom: 125px;
+        left: 25px;   
     }
     .narda-shashka-twelfth1{
-        bottom: 118px;
-          left: 10px;    
+        bottom: 135px;
+        left: 25px;
     }
     .narda-shashka-thirteenth1{
-        bottom: 128px;
-          left: 10px;    
+        bottom: 145px;
+        left: 25px;  
     }
     .narda-shashka-fourteenth1{
-        bottom: 138px;
-          left: 10px;    
+        bottom: 155px;
+        left: 25px;  
     }
     .narda-shashka-fifteenth1{
-        bottom: 148px;
-          left: 10px;    
+        bottom: 165px;
+        left: 25px;   
     }
 }
 
 
 @media (max-width:400px) {
+    .narda-stol-mute{
+        width: 40px;
+        height: 40px;
+        background-color: #75386f;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .narda-stol-lose{
+        width: 40px;
+        height: 40px;
+        background-color: #612a5a;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .narda-stol-luck{
+        width: 40px;
+        height: 40px;
+        background-color: #572451;
+        color: rgb(236, 229, 189);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
     .narda-stol-to-play{
         width: 100% !important;
-        height: 313px !important;
+        height: 400px !important;
         background: none;
         background-repeat: no-repeat;
         background-size: 100% !important;
         position: relative;
     }
     .narda-stol-to-play img{
-        width: 350px;
-        height: 350px;
+        width:  100% !important;
+        height: 500px;
         display: block !important;
     }
     .prosto-div-narda{
-        width: 350px !important;
+        width: 380px !important;
         margin: auto;
     }
     .narda-stol-to-play{
         height: 350px !important;
+    }
+
+    .person-who-play-narda2{
+        margin-top: 170px !important; 
     }
 
     .narda-circle{
@@ -1441,112 +1483,112 @@
     }
     
     .narda-circle-first1{
-        bottom: 10px;
-        right: 9px !important;
+        bottom: 0px !important;
+        right: 15px !important;
     
     }
     .narda-circle-second1{
-        bottom: 10px;
-        right: 35.5px !important;
+        bottom: 0px !important;
+        right: 40px !important;
     }
     
     .narda-circle-thrist1{
-        bottom: 10px;
-        right: 61px !important;
+        bottom: 0px !important;
+        right: 65px !important;
     }
     .narda-circle-fourth1{
-        bottom: 10px;
-        right: 88px !important;
+        bottom: 0px !important;
+        right: 90px !important;
     }
     .narda-circle-fiveth1{
-        bottom: 10px;
+        bottom: 0px !important;
         right: 115px !important;
     }
     .narda-circle-sixth1{
-        bottom: 10px;
-        right: 141px !important;
+        bottom: 0px !important;
+        right: 140px !important;
     }
     
     
     .narda-circle-first{
-        bottom: 8px;
-        left: 10px;
+        bottom: 0px !important;
+        left: 18px !important;
     }
     .narda-circle-second{
-        bottom: 8px;
-        left: 33px !important;
+        bottom: 0px !important;
+        left: 42px !important;
     }
     
     .narda-circle-thrist{
-        bottom: 8px;
-        left: 60px !important;
+        bottom: 0px !important;
+        left: 67px !important;
     }
     .narda-circle-fourth{
-        bottom: 8px;
-        left: 86px !important;
+        bottom: 0px !important;
+        left: 92px !important;
     }
     .narda-circle-fiveth{
-        bottom: 8px;
-        left: 113px !important;
+        bottom: 0px !important;
+        left: 117px !important;
     }
     .narda-circle-sixth{
-        bottom: 8px;
-        left: 140px !important;
+        bottom: 0px !important;
+        left: 142px !important;
     }
     
     
     
     .narda-circle-first2{
         top: 13px;
-        right: 8px !important;
+        right: 17px !important;
     }
     .narda-circle-second2{
         top: 13px;
-        right: 35px !important;
+        right: 42px !important;
     }
     
     .narda-circle-thrist2{
         top: 13px;
-        right: 61px !important;
+        right: 67px !important;
     }
     .narda-circle-fourth2{
         top: 13px;
-        right: 88px !important;
+        right: 92px !important;
     }
     .narda-circle-fiveth2{
         top: 13px;
-        right: 115px !important;
+        right: 116px !important;
     }
     .narda-circle-sixth2{
         top: 13px;
-        right: 142px !important;
+        right: 140px !important;
     }
     
     
     .narda-circle-first3{
         top: 13px;
-        left: 7px !important;
+        left: 18px !important;
     }
     .narda-circle-second3{
         top: 13px;
-        left: 33px !important;
+        left: 42px !important;
     }
     
     .narda-circle-thrist3{
         top: 13px;
-        left: 60px !important;
+        left: 67px !important;
     }
     .narda-circle-fourth3{
         top: 13px;
-        left: 86px !important;
+        left: 92px !important;
     }
     .narda-circle-fiveth3{
         top: 13px;
-        left: 113px !important;
+        left: 117px !important;
     }
     .narda-circle-sixth3{
         top: 13px;
-        left: 140px !important;
+        left: 141px !important;
     }
 
 
@@ -1562,63 +1604,63 @@
     
     .narda-shashka-first{
         top: 12px;
-        right: 9px;
+        right: 16px !important;
     }
     .narda-shashka-second{
         top: 22px;
-        right: 9px;
+        right: 16px !important;
     }
     .narda-shashka-thirth{
         top: 32px;
-        right: 9px;
+        right: 16px !important;
     }
     .narda-shashka-fourth{
         top: 42px;
-        right: 9px; 
+        right: 16px !important; 
     }
     .narda-shashka-fivth{
         top: 52px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-sixth{
         top: 62px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-seventh{
         top: 72px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-eighth{
         top: 82px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-ninth{
         top: 92px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-tenth{
         top: 102px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-eleventh{
         top: 112px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-twelfth{
         top: 122px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-thirteenth{
         top: 132px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-fourteenth{
         top: 142px;
-        right: 9px;    
+        right: 16px !important;    
     }
     .narda-shashka-fifteenth{
         top: 152px;
-        right: 9px;    
+        right: 16px !important;    
     }
     
     
@@ -1633,65 +1675,142 @@
     }
     
     .narda-shashka-first1{
-        bottom: 8px;
-        left: 7px;
+        bottom: -125px !important;
+        left: 17px !important;
     }
     .narda-shashka-second1{
-        bottom: 18px;
-        left: 7px;
+        bottom: -115px !important;
+        left: 17px !important;
     }
     .narda-shashka-thirth1{
-        bottom: 28px;
-        left: 7px;
+        bottom: -105px !important;
+        left: 17px !important;
     }
     .narda-shashka-fourth1{
-        bottom: 38px;
-        left: 7px; 
+        bottom: -95px !important;
+        left: 17px !important; 
     }
     .narda-shashka-fivth1{
-        bottom: 48px;
-        left: 7px;    
+        bottom: -85px !important;
+        left: 17px !important; 
     }
     .narda-shashka-sixth1{
-        bottom: 58px;
-        left: 7px;    
+        bottom: -75px !important;
+        left: 17px !important;   
     }
     .narda-shashka-seventh1{
-        bottom: 68px;
-        left: 7px;    
+        bottom: -65px !important;
+        left: 17px !important;   
     }
     .narda-shashka-eighth1{
-        bottom: 78px;
-        left: 7px;    
+        bottom: -55px !important;
+        left: 17px !important;   
     }
     .narda-shashka-ninth1{
-        bottom: 88px;
-        left: 7px;    
+        bottom: -45px !important;
+        left: 17px !important;   
     }
     .narda-shashka-tenth1{
-        bottom: 98px;
-        left: 7px;    
+        bottom: -35px !important;
+        left: 17px !important;    
     }
     .narda-shashka-eleventh1{
-        bottom: 108px;
-        left: 7px;    
+        bottom: -25px !important;
+        left: 17px !important;  
     }
     .narda-shashka-twelfth1{
-        bottom: 118px;
-        left: 7px;    
+        bottom: -15px !important;
+        left: 17px !important;   
     }
     .narda-shashka-thirteenth1{
-        bottom: 128px;
-        left: 7px;    
+        bottom: -5px !important;
+        left: 17px !important;  
     }
     .narda-shashka-fourteenth1{
-        bottom: 138px;
-        left: 7px;    
+        bottom:  5px !important;
+        left: 17px !important;   
     }
     .narda-shashka-fifteenth1{
-        bottom: 148px;
-        left: 7px;    
+        bottom: 15px !important;
+        left: 17px !important;  
     }
+}
+
+@media (max-width:380px) {
+    .prosto-div-narda{
+        width: 360px !important;
+    }
+}
+
+@media (max-width:360px) {
+    .prosto-div-narda{
+        width: 340px !important;
+    }
+}
+
+@media (max-width:340px) {
+    .emotion-narda1{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+    .emotion-narda2{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+    .prosto-div-narda{
+        width: 320px !important;
+    }
+    .person-who-play-narda{
+        gap: 4px !important;
+    }
+    .how-much-think-off{
+        width: 120px;
+    }
+    .thinds-narda{
+        width: 80px;
+        height: 20px;
+    }
+    .something-narda{
+        width: 20px;
+        height: 20px;
+    }
+    .time-narda{
+        width: 80px;
+        margin-left: 35px;
+    }
+    .person-narda{
+        width: 120px;
+    }
+
+
+    .person-who-play-narda2{
+        gap: 40px !important;
+    }
+    .how-much-think-off2{
+        width: 120px !important;
+    }
+    .thinds-narda{
+        width: 80px !important  ;
+        height: 20px !important;
+    }
+    .something-narda{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .time-narda{
+        width: 80px !important;
+        margin-left: 35px !important;
+    }
+    .person-narda{
+        width: 120px !important;
+    }
+
+emotion-narda1
+
+
+
 }
 
 
