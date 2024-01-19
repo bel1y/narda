@@ -1418,7 +1418,13 @@
 }
 
 
+
+
+
 @media (max-width:400px) {
+    .narda-player{
+        margin-top: 60px;
+    }
     .narda-stol-mute{
         width: 40px;
         height: 40px;
@@ -1459,7 +1465,7 @@
     }
     .narda-stol-to-play img{
         width:  100% !important;
-        height: 500px;
+        height: 370px;
         display: block !important;
     }
     .prosto-div-narda{
@@ -1471,7 +1477,7 @@
     }
 
     .person-who-play-narda2{
-        margin-top: 170px !important; 
+        margin-top: 40px !important; 
     }
 
     .narda-circle{
@@ -1675,76 +1681,210 @@
     }
     
     .narda-shashka-first1{
-        bottom: -125px !important;
-        left: 17px !important;
+        bottom: 0px !important;
+        left: 18px !important;
     }
     .narda-shashka-second1{
-        bottom: -115px !important;
-        left: 17px !important;
+        bottom: 10px !important;
+        left: 18px !important;
     }
     .narda-shashka-thirth1{
-        bottom: -105px !important;
-        left: 17px !important;
+        bottom: 20px !important;
+        left: 18px !important;
     }
     .narda-shashka-fourth1{
-        bottom: -95px !important;
-        left: 17px !important; 
+        bottom: 30px !important;
+        left: 18px !important;
     }
     .narda-shashka-fivth1{
-        bottom: -85px !important;
-        left: 17px !important; 
+        bottom: 40px !important;
+        left: 18px !important;
     }
     .narda-shashka-sixth1{
-        bottom: -75px !important;
-        left: 17px !important;   
+        bottom: 50px !important;
+        left: 18px !important;  
     }
     .narda-shashka-seventh1{
-        bottom: -65px !important;
-        left: 17px !important;   
+        bottom: 60px !important;
+        left: 18px !important;  
     }
     .narda-shashka-eighth1{
-        bottom: -55px !important;
-        left: 17px !important;   
+        bottom: 70px !important;
+        left: 18px !important; 
     }
     .narda-shashka-ninth1{
-        bottom: -45px !important;
-        left: 17px !important;   
+        bottom: 80px !important;
+        left: 18px !important;   
     }
     .narda-shashka-tenth1{
-        bottom: -35px !important;
-        left: 17px !important;    
+        bottom: 90px !important;
+        left: 18px !important;    
     }
     .narda-shashka-eleventh1{
-        bottom: -25px !important;
-        left: 17px !important;  
+        bottom: 100px !important;
+        left: 18px !important;;  
     }
     .narda-shashka-twelfth1{
-        bottom: -15px !important;
-        left: 17px !important;   
+        bottom: 110px !important;
+        left: 18px !important;  
     }
     .narda-shashka-thirteenth1{
-        bottom: -5px !important;
-        left: 17px !important;  
+        bottom: 120px !important;
+        left: 18px !important;
     }
     .narda-shashka-fourteenth1{
-        bottom:  5px !important;
-        left: 17px !important;   
+        bottom:  130px !important;
+        left: 18px !important;   
     }
     .narda-shashka-fifteenth1{
-        bottom: 15px !important;
-        left: 17px !important;  
+        bottom: 140px !important;
+        left: 18px !important;  
     }
-}
-
-@media (max-width:380px) {
-    .prosto-div-narda{
+        .prosto-div-narda{
         width: 360px !important;
     }
 }
 
-@media (max-width:360px) {
+
+@media (max-width:365px) {
     .prosto-div-narda{
         width: 340px !important;
+    }
+    .narda-stol-to-play img{
+        width:  100% !important;
+        height: 330px;
+        display: block !important;
+    }
+    .narda-shashka-first1{
+        bottom: 35px !important;
+        left: 15px !important;
+
+    }
+    .narda-shashka-second1{
+        bottom: 45px !important;
+        left: 15px !important;
+    }
+
+    .narda-shashka-thirth1{
+        bottom: 55px !important;
+        left: 15px !important;
+    }
+.narda-shashka-fourth1{
+    bottom: 65px !important;
+    left: 15px !important;
+}
+.narda-shashka-fivth1{
+    bottom: 75px !important;
+    left: 15px !important;
+}
+.narda-shashka-sixth1{
+    bottom: 85px !important;
+    left: 15px !important;
+}
+.narda-shashka-seventh1{
+    bottom: 95px !important;
+    left: 15px !important;
+}
+.narda-shashka-eighth1{
+    bottom: 105px !important;
+    left: 15px !important;
+}
+.narda-shashka-ninth1{
+    bottom: 115px !important;
+    left: 15px !important;
+}
+.narda-shashka-tenth1{
+    bottom: 125px !important;
+    left: 15px !important;
+}
+.narda-shashka-eleventh1{
+    bottom: 135px !important;
+    left: 15px !important;
+}
+.narda-shashka-twelfth1{
+    bottom: 145px !important;
+    left: 15px !important;
+}
+ .narda-shashka-thirteenth1{
+    bottom: 155px !important;
+    left: 15px !important;
+ }
+.narda-shashka-fourteenth1{
+    bottom: 165px !important;
+    left: 15px !important;
+}
+.narda-shashka-fifteenth1{
+    bottom: 175px !important;
+    left: 15px !important; 
+}
+
+.narda-shashka-first{
+    top: 15px !important;
+    right: 15px !important;
+
+}
+.narda-shashka-second{
+    top: 25px !important;
+    right: 15px !important;
+}
+
+.narda-shashka-thirth{
+    top: 35px !important;
+    right: 15px !important;
+}
+.narda-shashka-fourth{
+    top: 45px !important;
+    right: 15px !important;
+}
+.narda-shashka-fivth{
+    top: 55px !important;
+    right: 15px !important;
+}
+.narda-shashka-sixth{
+    top: 65px !important;
+    right: 15px !important;
+}
+.narda-shashka-seventh{
+    top: 75px !important;
+    right: 15px !important;
+}
+.narda-shashka-eighth{
+    top: 85px !important;
+    right: 15px !important;
+}
+.narda-shashka-ninth{
+    top: 95px !important;
+    right: 15px !important;
+}
+.narda-shashka-tenth{
+    top: 105px !important;
+    right: 15px !important;
+}
+.narda-shashka-eleventh{
+    top: 115px !important;
+    right: 15px !important;
+}
+.narda-shashka-twelfth{
+    top: 125px !important;
+    right: 15px !important;
+}
+.narda-shashka-thirteenth{
+    top: 135px !important;
+    right: 15px !important;
+}
+.narda-shashka-fourteenth{
+    top: 145px !important;
+    right: 15px !important;
+}
+.narda-shashka-fifteenth{
+    top: 155px !important;
+    right: 15px !important; 
+}
+    .prosto-div-narda{
+        height: auto !important;
+    }
+    .person-who-play-narda2{
+        margin-top: 0px !important;
     }
 }
 
@@ -1806,8 +1946,6 @@
     .person-narda{
         width: 120px !important;
     }
-
-emotion-narda1
 
 
 
