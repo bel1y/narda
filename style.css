@@ -1423,7 +1423,7 @@
 
 @media (max-width:400px) {
     .narda-player{
-        margin-top: 60px;
+        margin-top: 70px;       
     }
     .narda-stol-mute{
         width: 40px;
@@ -1469,11 +1469,17 @@
         display: block !important;
     }
     .prosto-div-narda{
-        width: 380px !important;
+        width: 383px !important;
         margin: auto;
+        padding: 0px 3px;
     }
     .narda-stol-to-play{
         height: 350px !important;
+    }
+
+    .person-who-play-narda{
+        display: flex;
+        justify-content: space-between;
     }
 
     .person-who-play-narda2{
@@ -1740,11 +1746,16 @@
         bottom: 140px !important;
         left: 18px !important;  
     }
-        .prosto-div-narda{
-        width: 360px !important;
-    }
+    
 }
 
+
+@media (max-width:380px) {
+    .prosto-div-narda{
+        width: 360px !important;
+        margin: auto;
+    }
+}
 
 @media (max-width:365px) {
     .prosto-div-narda{
